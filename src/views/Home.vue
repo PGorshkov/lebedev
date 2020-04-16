@@ -2,7 +2,7 @@
   section(class='home')
     filters(:breeds="breeds" :sub-breeds="subBreeds")
     div(class='home__content')
-      card-photo(v-for="photo in photos" :photo="photo")
+      card-photo(v-for="(photo, index) in photos" :photo="photo" :key="index")
     div(class="home__loading" v-if='loading')
       span
       span
