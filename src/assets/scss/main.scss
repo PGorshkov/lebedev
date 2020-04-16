@@ -1,0 +1,16 @@
+@import 'node_modules/reset-css/sass/reset';
+html, body{
+  font-family: 'IBM Plex Sans', sans-serif;
+  min-width: 100%;
+  min-height: 100%;
+}
+body{
+  background: linear-gradient(180deg, #1B1A1F 0%, #111013 99.09%);
+}
+*{
+  box-sizing: border-box;
+}
+a{
+  outline: none;
+  text-decoration: none;
+}
