@@ -1,7 +1,7 @@
 <template lang="pug">
   section(class='favorites')
     div(class='favorites__content')
-      card-photo(v-for="photo in favorites" :photo="photo")
+      card-photo(v-for="(photo, index) in favorites" :photo="photo" :key="index")
 </template>
 
 <script>
